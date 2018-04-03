@@ -9,5 +9,6 @@ notifications:
  email:
   recipients:
   - spidar21@gmail.com
+  - bundit@mycostech.com
  on_success: always
  on_failure: always
