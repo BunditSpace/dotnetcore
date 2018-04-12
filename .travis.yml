@@ -1,12 +1,12 @@
 language: csharp
 dotnet: 2.0.0
-  script:
+script:
  - dotnet restore
  - dotnet build 
  - dotnet test UnitTestProject2/UnitTestISBN.csproj
- notifications:
-  email:
-   recipients:
+notifications:
+ email:
+  recipients:
    - bundit@mycostech.com
   on_success: always
   on_failure: always
