@@ -1,5 +1,4 @@
 language: csharp
-mono: none
 dotnet: 2.0.0
 script:
  - dotnet restore
@@ -8,7 +7,6 @@ script:
 notifications:
  email:
   recipients:
-  - spidar21@gmail.com
   - bundit@mycostech.com
  on_success: always
  on_failure: always
