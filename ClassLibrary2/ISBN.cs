@@ -4,6 +4,11 @@ namespace ClassLibraryISBN
 {
     public class ISBN
     {
+        /// <summary>
+        /// Check ISBN is valid or Not  
+        /// </summary>
+        /// <param name="isbn10"> isbn number </param>
+        /// <returns></returns>
         public bool IsValidISBN(string isbn10)
         {
             if (!string.IsNullOrEmpty(isbn10))

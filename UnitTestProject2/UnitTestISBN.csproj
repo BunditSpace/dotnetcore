@@ -14,6 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary2\ClassLibraryISBN.csproj" />
+    <ProjectReference Include="..\ConsoleApp\ConsoleApp.csproj" />
+    <ProjectReference Include="..\ShapeLibrary\ShapeLibrary.csproj" />
   </ItemGroup>
 
 </Project>
